@@ -29,6 +29,5 @@ RUN pip3 install .
 # Check the Samtools version
 RUN talon -h
 
-
 # Set the default command to run Samtools
 CMD ["talon"]
